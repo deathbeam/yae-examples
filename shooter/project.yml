@@ -1,5 +1,5 @@
 name: "Shooter"
-package: "non.examples.shooter"
+package: "yae.examples.shooter"
 version: "1.0.0"
 
 window:
