@@ -3,11 +3,11 @@ planetling = {}
 function planetling:new()
   local object = {
     mass = 10;
-		radius = 1;
-		xpos = 1;
-		ypos = 1;
-		xvel = 0;
-		yvel = 0;
+    radius = 1;
+    xpos = 1;
+    ypos = 1;
+    xvel = 0;
+    yvel = 0;
     grabbed = 1;
     isBig = true;
   }
@@ -18,11 +18,11 @@ end
 function planetling:new(mass, radius, xpos, ypos)
   local object = {
     mass = mass;
-		radius = radius;
-		xpos = xpos;
-		ypos = ypos;
-		xvel = 0;
-		yvel = 0;
+    radius = radius;
+    xpos = xpos;
+    ypos = ypos;
+    xvel = 0;
+    yvel = 0;
     grabbed = 1;
     isBig = true;
   }

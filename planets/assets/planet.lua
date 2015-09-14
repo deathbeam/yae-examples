@@ -3,11 +3,11 @@ planet = {}
 function planet:new(mass, radius, xpos, ypos)
   local object = {
     mass = mass;
-		radius = radius;
-		xpos = xpos;
-		ypos = ypos;
-		xvel = 0;
-		yvel = 0;
+    radius = radius;
+    xpos = xpos;
+    ypos = ypos;
+    xvel = 0;
+    yvel = 0;
     grabbed = 1;
     isBig = true;
   }
